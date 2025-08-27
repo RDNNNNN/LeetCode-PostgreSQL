@@ -47,7 +47,7 @@ The result format is in the following example.
 
 ---
 
-## 1527. Patients With a Condition 患有某種疾病的患者 [(連結)](https://github.com/RDNNNNN/LeetCode-PostgreSQL/tree/main/1527.%20Patients%20With%20a%20Condition)
+### 1527. Patients With a Condition 患有某種疾病的患者 [(連結)](https://github.com/RDNNNNN/LeetCode-PostgreSQL/tree/main/1527.%20Patients%20With%20a%20Condition)
 
 ```sql
 Table: Patients
