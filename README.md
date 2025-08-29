@@ -129,31 +129,3 @@ The result format is in the following example.
 返回由 `User_id` 排序的結果表
 
 結果顯示如下
-
-### Example 範例
-
-```sql
-Input: 
-Users table:
-+---------+-------+
-| user_id | name  |
-+---------+-------+
-| 1       | aLice |
-| 2       | bOB   |
-+---------+-------+
-Output: 
-+---------+-------+
-| user_id | name  |
-+---------+-------+
-| 1       | Alice |
-| 2       | Bob   |
-+---------+-------+
-```
-
-### Code 程式碼
-
-```sql
-SELECT user_id, UPPER(SUBSTRING(name FROM 1 FOR 1)) || LOWER(SUBSTRING(name FROM 2))
-as name FROM Users 
-ORDER BY user_id
-```
