@@ -1,4 +1,4 @@
-### 1148. Article Views I 文章瀏覽量 I
+## 1148. Article Views I 文章瀏覽量 I
 
 Table: Views
 +---------------+---------+
@@ -16,17 +16,17 @@ Note that equal author_id and viewer_id indicate the same person.
 此表的每一行都表示某個瀏覽者在某個日期瀏覽了某篇文章（由某個作者撰寫）
 請注意，相同的 author_id 和 viewer_id 表示同一個人
  
-#### 題目
+### 題目
 Write a solution to find all the authors that viewed at least one of their own articles.
 Return the result table sorted by id in ascending order.
 The result format is in the following example.
 
-#### 中文
+### 中文
 寫一個解決方案，找出所有至少瀏覽過一篇自己文章的作者
 傳回按 ID 升序排序的結果表
 結果如下顯示
 
-#### Example 範例
+### Example 範例
 Input: 
 Views table:
 +------------+-----------+-----------+------------+
@@ -48,6 +48,6 @@ Output:
 | 7    |
 +------+
 
-#### Code 程式碼
+### Code 程式碼
 SELECT DISTINCT author_id "id" FROM views
 WHERE author_id = viewer_id
