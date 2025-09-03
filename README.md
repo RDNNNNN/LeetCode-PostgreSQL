@@ -220,3 +220,45 @@ The result format is in the following example.
 返回由 `User_id` 排序的結果表
 
 結果顯示如下
+
+---
+
+### 1683. Invalid Tweets 無效的推文 [(連結)](https://github.com/RDNNNNN/LeetCode-PostgreSQL/tree/main/1683.%20Invalid%20Tweets)
+
+```sql
+Table: Tweets
++----------------+---------+
+| Column Name    | Type    |
++----------------+---------+
+| tweet_id       | int     |
+| content        | varchar |
++----------------+---------+
+
+tweet_id is the primary key (column with unique values) for this table.
+content consists of alphanumeric characters, '!', or ' ' and no other special characters.
+This table contains all the tweets in a social media app.
+
+tweet_id 為此表的主鍵
+content 是由字母數字元、`!`、`「」`組成，且不含其他特殊字元
+此表包含所有社交應用程式的所有推文
+```
+
+#### 題目
+
+Write a solution to find the IDs of the invalid tweets. 
+
+The tweet is invalid if the number of characters used in the content of the tweet is strictly greater than 15.
+
+Return the result table in any order.
+
+The result format is in the following example.
+
+#### 中文
+
+撰寫一個解決方案來尋找無效的 ID 
+
+如果推文內容的字元數大於 15，則該推文無效
+
+以任意順序回傳這個結果表
+
+結果顯示如下
