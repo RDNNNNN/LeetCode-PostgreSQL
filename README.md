@@ -265,7 +265,7 @@ The result format is in the following example.
 
 ---
 
-## 1757. Recyclable and Low Fat Products 可回收和低脂產品 [(連結)](https://github.com/RDNNNNN/LeetCode-PostgreSQL/tree/main/1757.%20Recyclable%20and%20Low%20Fat%20Products)
+### 1757. Recyclable and Low Fat Products 可回收和低脂產品 [(連結)](https://github.com/RDNNNNN/LeetCode-PostgreSQL/tree/main/1757.%20Recyclable%20and%20Low%20Fat%20Products)
 
 ```sql
 +-------------+---------+
